@@ -6,7 +6,7 @@
         {{> "components/header" layout="wide" background="image" primary=@custom.primary_header secondary=@custom.secondary_header}}
     {{else match @custom.header_action "Search"}}
         {{> "components/header" layout="wide" background="image" action="search" primary=@custom.primary_header secondary=@custom.secondary_header}}
-    {{else match @custom.header_action "Subscribe"}}
+    {{else match @custom.header_action "S'abonner"}}
         {{> "components/header" layout="wide" background="image" action="email" primary=@custom.primary_header secondary=@custom.secondary_header}}
     {{/match}}
 
